@@ -139,61 +139,61 @@ public class ConversorMoedas extends javax.swing.JFrame {
                 case "Real a Dólar": {
                     BigDecimal taxaCambio = BigDecimal.valueOf(4.82);
                     BigDecimal resultado = BigDecimal.valueOf(valor).divide(taxaCambio, 2, RoundingMode.HALF_EVEN);
-                    JOptionPane.showMessageDialog(this, "O valor em Dólar é igual a: " + resultado.toString());
+                    JOptionPane.showMessageDialog(this, "O valor em Dólar é igual a: US$" + resultado.toString());
                     break;
                 }
                 case "Dólar a Real": {
                     BigDecimal taxaCambio = BigDecimal.valueOf(4.82);
                     BigDecimal resultado = BigDecimal.valueOf(valor).multiply(taxaCambio).setScale(2, RoundingMode.HALF_EVEN);
-                    JOptionPane.showMessageDialog(this, "O valor em Real é igual a: " + resultado.toString());
+                    JOptionPane.showMessageDialog(this, "O valor em Real é igual a: R$" + resultado.toString());
                     break;
                 }
                 case "Real a Euro": {
                     BigDecimal taxaCambio = BigDecimal.valueOf(5.36);
                     BigDecimal resultado = BigDecimal.valueOf(valor).divide(taxaCambio, 2, RoundingMode.HALF_EVEN);
-                    JOptionPane.showMessageDialog(this, "O valor em Euro é igual a: " + resultado.toString());
+                    JOptionPane.showMessageDialog(this, "O valor em Euro é igual a: €" + resultado.toString());
                     break;
                 }
                 case "Euro a Real": {
                     BigDecimal taxaCambio = BigDecimal.valueOf(5.36);
                     BigDecimal resultado = BigDecimal.valueOf(valor).multiply(taxaCambio).setScale(2, RoundingMode.HALF_EVEN);
-                    JOptionPane.showMessageDialog(this, "O valor em Real é igual a: " + resultado.toString());
+                    JOptionPane.showMessageDialog(this, "O valor em Real é igual a: R$" + resultado.toString());
                     break;
                 }
                 case "Real a Libras": {
                     BigDecimal taxaCambio = BigDecimal.valueOf(6.26);
                     BigDecimal resultado = BigDecimal.valueOf(valor).divide(taxaCambio, 2, RoundingMode.HALF_EVEN);
-                    JOptionPane.showMessageDialog(this, "O valor em Libras é igual a: " + resultado.toString());
+                    JOptionPane.showMessageDialog(this, "O valor em Libras é igual a: £" + resultado.toString());
                     break;
                 }
                 case "Libras a Real": {
                     BigDecimal taxaCambio = BigDecimal.valueOf(6.26);
                     BigDecimal resultado = BigDecimal.valueOf(valor).multiply(taxaCambio).setScale(2, RoundingMode.HALF_EVEN);
-                    JOptionPane.showMessageDialog(this, "O valor em Real é igual a: " + resultado.toString());
+                    JOptionPane.showMessageDialog(this, "O valor em Real é igual a: R$" + resultado.toString());
                     break;
                 }
                 case "Real a Peso Argentino": {
                     BigDecimal taxaCambio = BigDecimal.valueOf(0.18);
                     BigDecimal resultado = BigDecimal.valueOf(valor).divide(taxaCambio, 2, RoundingMode.HALF_EVEN);
-                    JOptionPane.showMessageDialog(this, "O valor em Peso Argentino é igual a: " + resultado.toString());
+                    JOptionPane.showMessageDialog(this, "O valor em Peso Argentino é igual a: $" + resultado.toString());
                     break;
                 }
                 case "Peso Argentino a Real": {
                     BigDecimal taxaCambio = BigDecimal.valueOf(0.18);
                     BigDecimal resultado = BigDecimal.valueOf(valor).multiply(taxaCambio).setScale(2, RoundingMode.HALF_EVEN);
-                    JOptionPane.showMessageDialog(this, "O valor em Real é igual a: " + resultado.toString());
+                    JOptionPane.showMessageDialog(this, "O valor em Real é igual a: R$" + resultado.toString());
                     break;
                 }
                 case "Real a Peso Chileno": {
                     BigDecimal taxaCambio = BigDecimal.valueOf(0.59);
                     BigDecimal resultado = BigDecimal.valueOf(valor).divide(taxaCambio, 2, RoundingMode.HALF_EVEN);
-                    JOptionPane.showMessageDialog(this, "O valor em Real é igual a: " + resultado.toString());
+                    JOptionPane.showMessageDialog(this, "O valor em Peso Chileno é igual a: $" + resultado.toString());
                     break;
                 }
                 case "Peso Chileno a Real": {
                     BigDecimal taxaCambio = BigDecimal.valueOf(0.59);
                     BigDecimal resultado = BigDecimal.valueOf(valor).multiply(taxaCambio).setScale(2, RoundingMode.HALF_EVEN);
-                    JOptionPane.showMessageDialog(this, "O valor em Peso Chileno é igual a: " + resultado.toString());
+                    JOptionPane.showMessageDialog(this, "O valor em Real é igual a: R$" + resultado.toString());
                     break;
                 }
                 default:
